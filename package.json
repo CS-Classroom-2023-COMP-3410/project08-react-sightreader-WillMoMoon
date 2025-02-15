@@ -1,23 +1,23 @@
 {
-  "name": "abcsightreader",
+  "name": "barebones-nodejs-6",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "dependencies": {
-    "abcjs": "^5.1.2"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/andrewhannum/abcsightreader.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/andrewhannum/abcsightreader/issues"
+  "description": "",
+  "dependencies": {
+    "pitchfinder": "^2.3.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
-  "homepage": "https://github.com/andrewhannum/abcsightreader#readme"
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.1.0"
+  }
 }
